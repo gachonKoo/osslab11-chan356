@@ -1,2 +1,4 @@
+import math
+
 def pythagoras(a, b):
-    return (a*a + b*b) ** 0.5
+    return math.sqrt(a*a + b*b)
